@@ -257,8 +257,15 @@ Mainy:AddParagraph({
         Content = "we fixed it."
     })
 
-
-local Toggle = Mainy:AddToggle("Auto Parry", {Title = "Auto parry ", Default = false })
+Mainy:AddButton({
+        Title = " auto Parry - can't walk",
+        Description = "we fix ",
+        Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/TripleScript/AutoParryonly/main/AutoParryOnly.txt")))()
+        end
+    })
+    
+local Toggle = Mainy:AddToggle("Ping Based Parry", {Title = "Auto parry ", Default = false })
 Toggle:OnChanged(function(toggled)
 
    resolve_parry_Remote()
