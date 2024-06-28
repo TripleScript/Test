@@ -258,10 +258,10 @@ Mainy:AddParagraph({
     })
 
 Mainy:AddButton({
-        Title = " auto Parry - can't walk",
-        Description = "we fix ",
+        Title = " auto Parry - works",
+        Description = "we are better4 ever! ",
         Callback = function()
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/TripleScript/AutoParryonly/main/AutoParryOnly.txt")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/UltraStuff/scripts2/main/bladered")))()
         end
     })
     
